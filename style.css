@@ -1,84 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    height: 100vh;
-    background-color: #f9f9f9;
-  }
-  
-  .profile-container {
-    width: 600px;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    
-  }
-  
-  .name {
-    font-size: 36px;
-    color: #ff66b2;
-    margin: 0;
-  }
-  
-  .divider {
-    margin: 10px auto;
-    width: 100%;
-    border-bottom: 10px dotted purple;
-  }
-  
-  .title {
-    font-size: 20px;
-    color: #777;
-    font-weight: normal;
-  }
-  
-  .description {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
-    margin: 10px 0;
-  }
-  
-  .contact-header {
-    font-size: 18px;
-    color: #333;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  .contact-box {
-    border: 4px solid purple;
-    padding: 10px;
-    border-radius: 6px;
-    margin-top: 10px;
-    background-color: #d8d3d3;
-  }
-  
-  .contact-box ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-  }
-  
-  .contact-box li {
-    font-size: 16px;
-    margin: 5px 0;
-  }
-  
-  .contact-box a {
-    color: #ff6600;
+h1{
+color: hsl(330, 78%, 69%);
+font-size: 36px;
+margin-bottom: 0px;
+}
+hr{
+border: 5px dotted #800080;
+border-bottom: none;
+margin-bottom: 20px;
+}
+.job{
+color:#666666 ;
+font-weight: bold;
+}
+
+h3{
+font-style: italic;
+}
+.info{
+border: 5px solid #800080;
+background-color: #f1f1f1;
+padding:15px 50px;
+width: 90%;
+}
+.info a{
     text-decoration: none;
-    
-  }
-  
-  .contact-box a:hover {
+    color: #d63333;
+}
+.info a:hover{
     text-decoration: underline;
-  }
-  .green{
-    color:green;
-  }
+}
+body{
+    margin: 40px;
+    font-family: Arial, sans-serif;
+}
